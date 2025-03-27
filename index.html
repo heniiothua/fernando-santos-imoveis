@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Santos | Corretor de Imóveis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i>Início</a></li>
+                    <li><a href="#imoveis"><i class="fas fa-building"></i>Imóveis</a></li>
+                    <li><a href="#sobre"><i class="fas fa-user"></i>Sobre</a></li>
+                    <li><a href="#servicos"><i class="fas fa-handshake"></i>Serviços</a></li>
+                    <li><a href="#contato" class="nav-highlight"><i class="fas fa-phone"></i>Fale Comigo</a></li>
+                </ul>
+                <button class="mobile-menu-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="home">
+        <img src="images/imovel-destaque.jpg" alt="Imóvel em Destaque" class="home-background">
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Fernando Santos</h1>
+                <p class="creci-number">CRECI PB 13347-F</p>
+                <div class="dynamic-text-wrapper">
+                    <div class="dynamic-text">
+                        <i class="fas fa-star"></i>
+                        Especialista em Imóveis
+                    </div>
+                    <div class="dynamic-text">
+                        <i class="fas fa-home"></i>
+                        Realizando seu Sonho
+                    </div>
+                    <div class="dynamic-text">
+                        <i class="fas fa-check-circle"></i>
+                        Sua Confiança é Nossa Prioridade
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="https://wa.me/5583993002121" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/fernandosantos.corretor_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/fernando.pedro.33" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="mailto:fernandopedro042@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#contato" class="cta-button">Fale Comigo</a>
+                    <a href="#imoveis" class="cta-button secondary">Ver Imóveis</a>
+                </div>
+            </div>
+            <div class="profile-image">
+                <img src="images/profile1.jpg" alt="Fernando Santos - Corretor">
+            </div>
+        </div>
+    </section>
+
+    <section id="imoveis" class="section">
+        <div class="container">
+            <h2>Nossos Imóveis</h2>
+            <div class="imoveis-categorias">
+                <div class="categoria-tabs">
+                    <button class="tab-btn active" data-categoria="propriedades">
+                        <i class="fas fa-building"></i>
+                        Propriedades
+                    </button>
+                    <button class="tab-btn" data-categoria="fazendas">
+                        <i class="fas fa-tree"></i>
+                        Fazendas
+                    </button>
+                </div>
+            </div>
+
+            <div class="imoveis-grid propriedades active">
+                <div class="imovel-card">
+                    <div class="imovel-imagem">
+                        <img src="images/propriedade1.jpg" alt="Apartamento Luxo">
+                        <span class="imovel-status">Venda</span>
+                    </div>
+                    <div class="imovel-info">
+                        <h3>Apartamento de Luxo</h3>
+                        <p class="imovel-local"><i class="fas fa-map-marker-alt"></i> Bairro dos Estados</p>
+                        <div class="imovel-detalhes">
+                            <span><i class="fas fa-bed"></i> 3 Quartos</span>
+                            <span><i class="fas fa-car"></i> 2 Vagas</span>
+                            <span><i class="fas fa-ruler-combined"></i> 120m²</span>
+                        </div>
+                        <div class="imovel-extras">
+                            <span><i class="fas fa-couch"></i> Sala ampla</span>
+                            <span><i class="fas fa-bath"></i> 2 Suítes</span>
+                            <span><i class="fas fa-swimmer"></i> Piscina</span>
+                        </div>
+                        <div class="imovel-preco">
+                            <strong>R$ 650.000</strong>
+                        </div>
+                        <a href="#contato" class="btn-ver-mais">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="imovel-card">
+                    <div class="imovel-imagem">
+                        <img src="images/propriedade2.jpg" alt="Casa em Condomínio">
+                        <span class="imovel-status">Venda</span>
+                    </div>
+                    <div class="imovel-info">
+                        <h3>Casa em Condomínio</h3>
+                        <p class="imovel-local"><i class="fas fa-map-marker-alt"></i> Portal do Sol</p>
+                        <div class="imovel-detalhes">
+                            <span><i class="fas fa-bed"></i> 4 Quartos</span>
+                            <span><i class="fas fa-car"></i> 3 Vagas</span>
+                            <span><i class="fas fa-ruler-combined"></i> 280m²</span>
+                        </div>
+                        <div class="imovel-extras">
+                            <span><i class="fas fa-couch"></i> Sala de estar e jantar</span>
+                            <span><i class="fas fa-bath"></i> 3 Suítes</span>
+                            <span><i class="fas fa-tree"></i> Jardim</span>
+                        </div>
+                        <div class="imovel-preco">
+                            <strong>R$ 890.000</strong>
+                        </div>
+                        <a href="#contato" class="btn-ver-mais">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="imovel-card">
+                    <div class="imovel-imagem">
+                        <img src="images/propriedade3.jpg" alt="Cobertura Duplex">
+                        <span class="imovel-status">Venda</span>
+                    </div>
+                    <div class="imovel-info">
+                        <h3>Cobertura Duplex</h3>
+                        <p class="imovel-local"><i class="fas fa-map-marker-alt"></i> Manaíra</p>
+                        <div class="imovel-detalhes">
+                            <span><i class="fas fa-bed"></i> 4 Quartos</span>
+                            <span><i class="fas fa-car"></i> 3 Vagas</span>
+                            <span><i class="fas fa-ruler-combined"></i> 320m²</span>
+                        </div>
+                        <div class="imovel-extras">
+                            <span><i class="fas fa-couch"></i> Área gourmet</span>
+                            <span><i class="fas fa-bath"></i> 4 Suítes</span>
+                            <span><i class="fas fa-hot-tub"></i> Jacuzzi</span>
+                        </div>
+                        <div class="imovel-preco">
+                            <strong>R$ 1.200.000</strong>
+                        </div>
+                        <a href="#contato" class="btn-ver-mais">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="imovel-card">
+                    <div class="imovel-imagem">
+                        <img src="images/propriedade4.jpg" alt="Apartamento Garden">
+                        <span class="imovel-status">Venda</span>
+                    </div>
+                    <div class="imovel-info">
+                        <h3>Apartamento Garden</h3>
+                        <p class="imovel-local"><i class="fas fa-map-marker-alt"></i> Tambaú</p>
+                        <div class="imovel-detalhes">
+                            <span><i class="fas fa-bed"></i> 3 Quartos</span>
+                            <span><i class="fas fa-car"></i> 2 Vagas</span>
+                            <span><i class="fas fa-ruler-combined"></i> 150m²</span>
+                        </div>
+                        <div class="imovel-extras">
+                            <span><i class="fas fa-tree"></i> Jardim privativo</span>
+                            <span><i class="fas fa-bath"></i> 2 Suítes</span>
+                            <span><i class="fas fa-dumbbell"></i> Academia</span>
+                        </div>
+                        <div class="imovel-preco">
+                            <strong>R$ 750.000</strong>
+                        </div>
+                        <a href="#contato" class="btn-ver-mais">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="imovel-card">
+                    <div class="imovel-imagem">
+                        <img src="images/propriedade5.jpg" alt="Casa Moderna">
+                        <span class="imovel-status">Venda</span>
+                    </div>
+                    <div class="imovel-info">
+                        <h3>Casa Moderna</h3>
+                        <p class="imovel-local"><i class="fas fa-map-marker-alt"></i> Altiplano</p>
+                        <div class="imovel-detalhes">
+                            <span><i class="fas fa-bed"></i> 5 Quartos</span>
+                            <span><i class="fas fa-car"></i> 4 Vagas</span>
+                            <span><i class="fas fa-ruler-combined"></i> 400m²</span>
+                        </div>
+                        <div class="imovel-extras">
+                            <span><i class="fas fa-film"></i> Home Theater</span>
+                            <span><i class="fas fa-bath"></i> 4 Suítes</span>
+                            <span><i class="fas fa-swimming-pool"></i> Piscina</span>
+                        </div>
+                        <div class="imovel-preco">
+                            <strong>R$ 1.500.000</strong>
+                        </div>
+                        <a href="#contato" class="btn-ver-mais">Ver Detalhes</a>
+                    </div>
+                </div>
+                <div class="imovel-card">
+                    <div class="imovel-imagem">
+                        <img src="images/propriedade6.jpg" alt="Flat Mobiliado">
+                        <span class="imovel-status">Aluguel</span>
+                    </div>
+                    <div class="imovel-info">
+                        <h3>Flat Mobiliado</h3>
+                        <p class="imovel-local"><i class="fas fa-map-marker-alt"></i> Cabo Branco</p>
+                        <div class="imovel-detalhes">
+                            <span><i class="fas fa-bed"></i> 1 Quarto</span>
+                            <span><i class="fas fa-car"></i> 1 Vaga</span>
+                            <span><i class="fas fa-ruler-combined"></i> 45m²</span>
+                        </div>
+                        <div class="imovel-extras">
+                            <span><i class="fas fa-utensils"></i> Cozinha equipada</span>
+                            <span><i class="fas fa-concierge-bell"></i> Serviço de hotel</span>
+                            <span><i class="fas fa-wifi"></i> Internet</span>
+                        </div>
+                        <div class="imovel-preco">
+                            <strong>R$ 2.500/mês</strong>
+                        </div>
+                        <a href="#contato" class="btn-ver-mais">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imoveis-grid fazendas">
+                <div class="imovel-card">
+                    <div class="imovel-imagem">
+                        <img src="images/fazenda1.jpg" alt="Fazenda Produtiva">
+                        <span class="imovel-status">Venda</span>
+                    </div>
+                    <div class="imovel-info">
+                        <h3>Fazenda Produtiva</h3>
+                        <p class="imovel-local"><i class="fas fa-map-marker-alt"></i> Região do Brejo</p>
+                        <div class="imovel-detalhes">
+                            <span><i class="fas fa-home"></i> Sede</span>
+                            <span><i class="fas fa-tractor"></i> Estrutura</span>
+                            <span><i class="fas fa-ruler-combined"></i> 50 ha</span>
+                        </div>
+                        <div class="imovel-preco">
+                            <strong>Sob Consulta</strong>
+                        </div>
+                        <a href="#contato" class="btn-ver-mais">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-content">
+            <div class="sobre-text">
+                <p>Com anos de experiência no mercado imobiliário, ofereço um serviço personalizado e profissional para ajudar você a encontrar o imóvel dos seus sonhos ou vender seu imóvel pelo melhor preço.</p>
+                <div class="expertise">
+                    <h3>Áreas de Atuação</h3>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <i class="fas fa-home"></i>
+                            <span>Residencial</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-building"></i>
+                            <span>Comercial</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>Terrenos</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-hotel"></i>
+                            <span>Alto Padrão</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="section">
+        <h2>Meus Serviços</h2>
+        <div class="servicos-grid">
+            <div class="servico-card">
+                <i class="fas fa-house-user"></i>
+                <h3>Compra</h3>
+                <p>Encontre o imóvel ideal para você e sua família com as melhores condições do mercado.</p>
+            </div>
+            <div class="servico-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Venda</h3>
+                <p>Avaliação e estratégias para vender seu imóvel pelo melhor preço e com segurança.</p>
+            </div>
+            <div class="servico-card">
+                <i class="fas fa-file-contract"></i>
+                <h3>Consultoria</h3>
+                <p>Assessoria completa em documentação e processos imobiliários.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Entre em Contato</h2>
+        <div class="contato-container">
+            <div class="contato-info">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+55 (83) 9300-2121</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>fernandopedro042@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>João Pessoa, PB</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-id-badge"></i>
+                    <p>CRECI-PB 13347-F</p>
+                </div>
+            </div>
+            <form class="contato-form">
+                <div class="form-group">
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Seu email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="telefone" placeholder="Seu telefone" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="mensagem" placeholder="Como posso ajudar?" required></textarea>
+                </div>
+                <button type="submit">
+                    <span>Enviar Mensagem</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="images/logo.png" alt="Fernando Santos Corretor" class="footer-logo">
+                <p class="creci-number">CRECI-PB 13347-F</p>
+            </div>
+            <div class="social-links">
+                <a href="https://wa.me/5583993002121" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/fernandosantos.corretor_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/fernando.pedro.33" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Fernando Santos - Corretor de Imóveis. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
